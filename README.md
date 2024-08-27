@@ -24,6 +24,10 @@ Memoir's API can be tested and interacted with using Postman, allowing you to se
 4. **Versatile Export Options:**  
    The ability to convert notes into text files adds a layer of versatility to your note management, making it easier to share and archive your thoughts.
 
+
+**Demo Video:**
+[Video link](https://www.awesomescreenshot.com/video/30900617?key=5225854e6de04179b29916290380729d)
+
 **Installation and Setup Instructions:**
 
 Follow these steps to build, install, and run Memoir on your machine:
