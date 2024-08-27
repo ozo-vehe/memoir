@@ -41,20 +41,27 @@ Follow these steps to build, install, and run Memoir on your machine:
 2. **Set Up the Environment:**
    Ensure you have Rust and SQLite installed on your machine. You can install Rust from [rust-lang.org](https://www.rust-lang.org/) and SQLite from [sqlite.org](https://sqlite.org/).
 
-3. **Build the Backend:**
+3. **Set .env Variable**
+   Create a `.env` file in the root folder and add line of code to it
+
+   ```bash
+   DATABASE_URL=sqlite:database.sqlite
+   ```
+
+5. **Build the Backend:**
    Navigate to the `backend` directory and build the Rust application:
    ```bash
    cd backend
    cargo build --release
    ```
 
-4. **Run the Application:**
+6. **Run the Application:**
    Start the backend server:
    ```bash
    cargo run --release
    ```
 
-5. **Test with Postman:**
+7. **Test with Postman:**
    - Install Postman from [postman.com](https://www.postman.com/).
    - Open Postman and create a new collection to manage your Memoir API requests.
    - Use Postman to send requests to `http://localhost:3000` (or the appropriate URL where your backend is running) to interact with the Memoir API. You can create, retrieve, update, delete, and export notes using various HTTP methods (GET, POST, PATCH, DELETE).
