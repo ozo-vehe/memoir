@@ -53,7 +53,7 @@ Follow these steps to build, install, and run Memoir on your machine:
 5. **Test with Postman:**
    - Install Postman from [postman.com](https://www.postman.com/).
    - Open Postman and create a new collection to manage your Memoir API requests.
-   - Use Postman to send requests to `http://localhost:3000` (or the appropriate URL where your backend is running) to interact with the Memoir API. You can create, retrieve, update, delete, and export notes using various HTTP methods (GET, POST, PUT, DELETE).
+   - Use Postman to send requests to `http://localhost:3000` (or the appropriate URL where your backend is running) to interact with the Memoir API. You can create, retrieve, update, delete, and export notes using various HTTP methods (GET, POST, PATCH, DELETE).
 
 **Conclusion:**
 
